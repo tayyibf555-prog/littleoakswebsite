@@ -10,6 +10,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { BookConsultation } from "@/components/sections/BookConsultation";
 import { FAQ } from "@/components/sections/FAQ";
 import { FadeIn } from "@/components/ui/FadeIn";
+import { OurSites } from "@/components/sections/OurSites";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <FadeIn><IncomePreview /></FadeIn>
       <FadeIn><InstitutionalRenewal /></FadeIn>
       <FadeIn><Testimonials /></FadeIn>
+      <FadeIn><OurSites /></FadeIn>
       <FadeIn><BookConsultation /></FadeIn>
       <FadeIn><FAQ /></FadeIn>
     </>
