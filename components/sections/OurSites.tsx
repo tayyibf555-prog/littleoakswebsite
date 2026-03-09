@@ -50,13 +50,13 @@ export function OurSites() {
                                         <span className="text-sm font-semibold text-honey-gold uppercase tracking-wider">New Location</span>
                                     </div>
                                     <h3 className="text-3xl font-bold text-deep-green mb-4 group-hover:text-honey-gold transition-colors">
-                                        Gran Oak Early Years
+                                        Grand Oak Early Years
                                     </h3>
                                     <p className="text-slate mb-8 line-clamp-2 md:line-clamp-none">
                                         Our newest dedicated early years setting. Register your interest now to join the waiting list for our upcoming opening.
                                     </p>
                                     <div className="mt-auto inline-flex">
-                                        <Link href="/gran-oak-early-years">
+                                        <Link href="/grand-oak-early-years">
                                             <Button className="bg-deep-green text-white hover:bg-honey-gold shadow-md hover:shadow-lg transition-all group-hover:-translate-y-1">
                                                 Join Waiting List
                                             </Button>

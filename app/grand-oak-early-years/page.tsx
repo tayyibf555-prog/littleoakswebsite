@@ -3,7 +3,7 @@ import { BookConsultation } from "@/components/sections/BookConsultation";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { Button } from "@/components/ui/Button";
 
-export default function GranOakEarlyYearsPage() {
+export default function GrandOakEarlyYearsPage() {
     return (
         <main className="flex min-h-screen flex-col">
             {/* Simple Premium Hero */}
@@ -25,7 +25,7 @@ export default function GranOakEarlyYearsPage() {
                             NEW LOCATION
                         </span>
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-display text-white mb-6 leading-tight">
-                            Gran Oak <br />
+                            Grand Oak <br />
                             <span className="text-honey-gold">Early Years</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-white/80 font-medium mb-10 max-w-2xl leading-relaxed">
@@ -46,7 +46,7 @@ export default function GranOakEarlyYearsPage() {
                                 Secure Your Place
                             </h2>
                             <p className="text-slate mb-8 text-lg">
-                                We are experiencing high demand for our upcoming opening at Gran Oak Early Years. Please complete the form to register your interest and we will be in touch with more details.
+                                We are experiencing high demand for our upcoming opening at Grand Oak Early Years. Please complete the form to register your interest and we will be in touch with more details.
                             </p>
                             <div className="p-6 bg-white rounded-2xl shadow-sm border border-light-grey mb-8">
                                 <h3 className="font-bold text-deep-green mb-2">Why register early?</h3>
