@@ -11,15 +11,11 @@ export default function GrandOakEarlyYearsPage() {
             {/* Simple Premium Hero */}
             <section className="bg-deep-green relative overflow-hidden py-32 flex items-center min-h-[500px]">
                 {/* Background Image */}
-                <div className="absolute inset-0 z-0">
-                    <Image
-                        src="/grand-oak-hero.png"
-                        alt="Grand Oak Early Years Interior"
-                        fill
-                        className="object-cover object-center opacity-40"
-                        priority
-                    />
-                </div>
+                <img
+                    src="/grand-oak-hero.png"
+                    alt="Grand Oak Early Years Interior"
+                    className="absolute inset-0 w-full h-full object-cover object-center opacity-40 z-0"
+                />
 
                 <div
                     className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none"
