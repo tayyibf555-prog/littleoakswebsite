@@ -3,32 +3,45 @@ import { BookConsultation } from "@/components/sections/BookConsultation";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { Button } from "@/components/ui/Button";
 
+import Image from "next/image";
+
 export default function GrandOakEarlyYearsPage() {
     return (
         <main className="flex min-h-screen flex-col">
             {/* Simple Premium Hero */}
-            <section className="bg-deep-green relative overflow-hidden py-32 flex items-center">
+            <section className="bg-deep-green relative overflow-hidden py-32 flex items-center min-h-[500px]">
+                {/* Background Image */}
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/grand-oak-hero.png"
+                        alt="Grand Oak Early Years Interior"
+                        fill
+                        className="object-cover object-center opacity-40"
+                        priority
+                    />
+                </div>
+
                 <div
-                    className="absolute inset-0 opacity-[0.03] pointer-events-none"
+                    className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none"
                     style={{
                         backgroundImage: 'radial-gradient(#fff 1px, transparent 1px)',
                         backgroundSize: '32px 32px'
                     }}
                 />
 
-                <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-honey-gold/20 to-transparent pointer-events-none" />
-                <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-honey-gold/30 rounded-full blur-[100px] pointer-events-none" />
+                <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-honey-gold/20 to-transparent pointer-events-none z-0" />
+                <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-honey-gold/30 rounded-full blur-[100px] pointer-events-none z-0" />
 
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="max-w-3xl">
                         <span className="inline-block py-1 px-3 rounded-full bg-honey-gold/20 text-honey-gold text-sm font-semibold tracking-wider font-accent mb-6 backdrop-blur-sm border border-honey-gold/30">
                             NEW LOCATION
                         </span>
-                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-display text-white mb-6 leading-tight">
+                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-display text-white mb-6 leading-tight drop-shadow-md">
                             Grand Oak <br />
                             <span className="text-honey-gold">Early Years</span>
                         </h1>
-                        <p className="text-xl md:text-2xl text-white/80 font-medium mb-10 max-w-2xl leading-relaxed">
+                        <p className="text-xl md:text-2xl text-white/90 font-medium mb-10 max-w-2xl leading-relaxed drop-shadow-sm">
                             A highly anticipated nursery environment designed to nurture your child's innate potential. Join the waiting list today.
                         </p>
                     </div>
