@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Confetti } from "@phosphor-icons/react";
+import Link from "next/link";
 
 export function RoomHire() {
     return (
@@ -20,9 +21,9 @@ export function RoomHire() {
                         <p className="text-lg text-slate max-w-2xl mx-auto mb-8">
                             Our spaces are available for children’s birthday parties and family-friendly events within a welcoming community setting.
                         </p>
-                        <button className="bg-deep-green text-white px-8 py-3 rounded-xl font-bold hover:bg-slate hover:shadow-lg transition-all transform hover:-translate-y-1">
+                        <Link href="/contact" className="inline-block bg-deep-green text-white px-8 py-3 rounded-xl font-bold hover:bg-slate hover:shadow-lg transition-all transform hover:-translate-y-1">
                             Enquire About Room Hire
-                        </button>
+                        </Link>
                     </div>
                 </FadeIn>
             </div>
