@@ -3,10 +3,9 @@
 export function AboutHero() {
     return (
         <section className="relative h-[60vh] min-h-[400px] flex items-center justify-center overflow-hidden bg-charcoal">
-            {/* Background Image Placeholder */}
-            <div className="absolute inset-0 bg-gray-800">
-                {/* In production: <Image src="..." layout="fill" objectFit="cover" /> */}
-                <div className="w-full h-full opacity-50 bg-[url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center" />
+            {/* Background Image */}
+            <div className="absolute inset-0 bg-deep-green">
+                <img src="/placeholders/about_hero.png" alt="About us background" className="w-full h-full object-cover opacity-60" />
             </div>
 
             {/* Full Width Overlay */}

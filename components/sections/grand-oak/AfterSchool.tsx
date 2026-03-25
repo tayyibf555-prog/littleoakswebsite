@@ -79,11 +79,9 @@ export function AfterSchool() {
 
                     <div className="relative h-[400px] sm:h-[500px] w-full lg:h-[600px]">
                         <FadeIn delay={0.3}>
-                            <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/10 bg-deep-green/50">
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <span className="text-white/40 font-accent tracking-widest text-sm uppercase">Active Children Image Placeholder</span>
-                                </div>
-                                <div className="absolute inset-0 bg-gradient-to-t from-deep-green/80 to-transparent"></div>
+                            <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/10 bg-deep-green">
+                                <img src="/placeholders/after_school.png" alt="After school activities" className="w-full h-full object-cover mix-blend-overlay opacity-80" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-deep-green/80 via-deep-green/20 to-transparent"></div>
                             </div>
                         </FadeIn>
                     </div>

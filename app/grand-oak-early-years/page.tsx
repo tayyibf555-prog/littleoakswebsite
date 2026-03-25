@@ -21,7 +21,7 @@ export default function GrandOakEarlyYearsPage() {
                 <img
                     src="/grand-oak-hero.png"
                     alt="Grand Oak Early Years Interior"
-                    className="absolute inset-0 w-full h-full object-cover object-center opacity-40 z-0"
+                    className="absolute inset-0 w-full h-full object-cover object-bottom opacity-40 z-0"
                 />
 
                 <div

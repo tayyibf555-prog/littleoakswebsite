@@ -35,12 +35,8 @@ export function Intro() {
 
                     <div className="lg:w-1/2">
                         <FadeIn delay={0.2}>
-                            <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-square lg:aspect-[4/3] bg-deep-green/5 border border-light-grey">
-                                <div className="absolute inset-0 flex items-center justify-center p-8 text-center text-slate/50">
-                                    <span className="font-accent tracking-widest text-sm uppercase">Warm & Welcoming Space Image</span>
-                                </div>
-                                {/* Placeholder for an actual image */}
-                                <div className="absolute inset-0 mix-blend-multiply opacity-5 bg-deep-green"></div>
+                            <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-square lg:aspect-[4/3] border border-light-grey">
+                                <img src="/placeholders/grand_oak_intro.png" alt="Warm and Welcoming Toddler Space" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                             </div>
                         </FadeIn>
                     </div>

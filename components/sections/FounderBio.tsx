@@ -15,15 +15,14 @@ export function FounderBio() {
                     <div className="relative flex justify-center lg:justify-end">
                         <div className="relative w-full max-w-md aspect-square">
                             {/* Abstract Avatar / Pattern instead of placeholder */}
-                            <div className="w-full h-full bg-gradient-to-br from-sage/20 to-cloud-blue/20 rounded-[40px] overflow-hidden shadow-xl border-4 border-white relative flex items-center justify-center">
-                                {/* Abstract Geometric Pattern */}
-                                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#1B5E3B 2px, transparent 2px)', backgroundSize: '24px 24px' }}></div>
+                            <div className="w-full h-full bg-deep-green rounded-[40px] overflow-hidden shadow-xl border-4 border-white relative flex items-center justify-center">
+                                <img src="/placeholders/founder_bio.png" alt="Founder background" className="absolute inset-0 w-full h-full object-cover opacity-90" />
 
                                 <div className="relative z-10 text-center">
-                                    <div className="w-32 h-32 mx-auto bg-deep-green/10 rounded-full flex items-center justify-center mb-4">
-                                        <UserCircle size={80} className="text-deep-green opacity-50" weight="duotone" />
+                                    <div className="w-32 h-32 mx-auto bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center mb-4 border border-white/20 shadow-lg">
+                                        <UserCircle size={80} className="text-white" weight="duotone" />
                                     </div>
-                                    <p className="text-deep-green/60 font-medium italic">Our Founder</p>
+                                    <p className="text-white/90 font-medium italic drop-shadow-md">Our Founder</p>
                                 </div>
                             </div>
                             {/* Floating name card */}

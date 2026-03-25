@@ -18,11 +18,8 @@ export function WhyChooseUs() {
                 <div className="flex flex-col lg:flex-row gap-16 items-center max-w-6xl mx-auto">
                     <div className="lg:w-1/2">
                         <FadeIn>
-                            <div className="relative rounded-[2rem] overflow-hidden shadow-xl aspect-square bg-deep-green border border-light-grey">
-                                <div className="absolute inset-0 flex items-center justify-center p-8 text-center text-white/50">
-                                    <span className="font-accent tracking-widest text-sm uppercase">Community Setting Image Placeholder</span>
-                                </div>
-                                <div className="absolute inset-0 mix-blend-overlay opacity-30 bg-warm-white"></div>
+                            <div className="relative rounded-[2rem] overflow-hidden shadow-xl aspect-square border border-light-grey">
+                                <img src="/placeholders/community.png" alt="Little Oaks Community Setting" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                             </div>
                         </FadeIn>
                     </div>

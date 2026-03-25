@@ -71,10 +71,10 @@ export function AvailableNow() {
 
                     {/* Placeholder for visual layout balance */}
                     <FadeIn delay={0.6}>
-                        <div className="bg-deep-green rounded-[2rem] p-8 shadow-md h-full flex flex-col items-center justify-center text-center relative overflow-hidden group">
-                            <div className="absolute inset-0 opacity-20 bg-[radial-gradient(#fff_2px,transparent_2px)] [background-size:16px_16px]"></div>
-                            <h3 className="text-2xl font-bold text-white relative z-10 font-display mb-2">More updates coming!</h3>
-                            <p className="text-white/80 relative z-10">Expanding our services step by step.</p>
+                        <div className="bg-deep-green rounded-[2rem] p-8 shadow-md h-full flex flex-col items-center justify-center text-center relative overflow-hidden group border border-light-grey">
+                            <img src="/placeholders/available_now.png" alt="Children's Educational Toys" className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-500" />
+                            <h3 className="text-2xl font-bold text-white relative z-10 font-display mb-2 drop-shadow-md">More updates coming!</h3>
+                            <p className="text-white/90 relative z-10 drop-shadow-md">Expanding our services step by step.</p>
                             <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-honey-gold rounded-full opacity-50 blur-2xl group-hover:opacity-70 transition-opacity"></div>
                         </div>
                     </FadeIn>

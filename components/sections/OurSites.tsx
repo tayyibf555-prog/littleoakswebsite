@@ -26,21 +26,8 @@ export function OurSites() {
                         <div className="group relative bg-white rounded-3xl overflow-hidden shadow-lg border border-light-grey/50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             <div className="flex flex-col md:flex-row">
                                 {/* Image Placeholder/Accent */}
-                                <div className="md:w-2/5 md:h-auto h-48 bg-deep-green relative overflow-hidden">
-                                    <div
-                                        className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity duration-300"
-                                        style={{
-                                            backgroundImage: 'radial-gradient(#D4A843 2px, transparent 2px)',
-                                            backgroundSize: '24px 24px'
-                                        }}
-                                    />
-                                    {/* Additional generic premium decoration */}
-                                    <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-honey-gold rounded-full opacity-50 blur-2xl"></div>
-                                    <div className="absolute -top-8 -left-8 w-32 h-32 bg-white rounded-full opacity-20 blur-2xl"></div>
-
-                                    <div className="absolute inset-0 flex items-center justify-center">
-                                        <span className="text-white/80 font-accent text-lg tracking-wider">COMING SOON</span>
-                                    </div>
+                                <div className="md:w-2/5 md:h-auto h-48 relative overflow-hidden border-r border-light-grey/50">
+                                    <img src="/placeholders/our_sites.png" alt="Grand Oak Early Years Nursery" className="absolute inset-0 w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-500" />
                                 </div>
 
                                 {/* Content */}

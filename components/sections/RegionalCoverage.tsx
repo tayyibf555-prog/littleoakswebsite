@@ -45,9 +45,9 @@ export function RegionalCoverage() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {regions.map((region) => (
                         <Card key={region.name} className="flex flex-col h-full hover:-translate-y-2">
-                            <div className={`h-48 rounded-[16px] mb-6 ${region.imageColor} flex items-center justify-center`}>
-                                <MapTrifold size={48} className="text-deep-green opacity-50" />
-                                {/* Placeholder for Map Image/Flag */}
+                            <div className={`h-48 rounded-[16px] mb-6 ${region.imageColor} relative flex items-center justify-center overflow-hidden`}>
+                                <img src="/placeholders/regional_coverage.png" alt="Map topograph" className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-50 hover:scale-110 transition-transform duration-700" />
+                                <MapTrifold size={48} className="text-deep-green opacity-90 relative z-10 drop-shadow-sm" />
                             </div>
                             <h3 className="text-2xl font-bold text-deep-green mb-3">{region.name}</h3>
                             <p className="text-slate mb-8 flex-grow">
