@@ -69,23 +69,23 @@ export default function PartyRoomPage() {
                         {/* Image Grid */}
                         <div className="lg:w-1/2 grid grid-cols-2 gap-4">
                             <FadeIn delay={0.1}>
-                                <div className="rounded-2xl overflow-hidden aspect-square bg-deep-green/5 relative border border-light-grey flex items-center justify-center">
-                                    <span className="text-sm font-accent text-slate/40 text-center px-4">Wide Shot of Room (Placeholder)</span>
+                                <div className="rounded-2xl overflow-hidden aspect-square bg-deep-green/5 relative border border-light-grey">
+                                    <img src="/party-room/wide_shot.png" alt="Wide Shot of Party Room" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                                 </div>
                             </FadeIn>
                             <FadeIn delay={0.2}>
-                                <div className="rounded-2xl overflow-hidden aspect-square bg-honey-gold/5 relative border border-light-grey flex items-center justify-center">
-                                    <span className="text-sm font-accent text-slate/40 text-center px-4">Climbing Frame (Placeholder)</span>
+                                <div className="rounded-2xl overflow-hidden aspect-square bg-honey-gold/5 relative border border-light-grey">
+                                    <img src="/party-room/climbing_frame.png" alt="Climbing Frame" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                                 </div>
                             </FadeIn>
                             <FadeIn delay={0.3}>
-                                <div className="rounded-2xl overflow-hidden aspect-square bg-honey-gold/5 relative border border-light-grey flex items-center justify-center">
-                                    <span className="text-sm font-accent text-slate/40 text-center px-4">Soft Play Area (Placeholder)</span>
+                                <div className="rounded-2xl overflow-hidden aspect-square bg-honey-gold/5 relative border border-light-grey">
+                                    <img src="/party-room/soft_play_area.png" alt="Soft Play Area" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                                 </div>
                             </FadeIn>
                             <FadeIn delay={0.4}>
-                                <div className="rounded-2xl overflow-hidden aspect-square bg-deep-green/5 relative border border-light-grey flex items-center justify-center">
-                                    <span className="text-sm font-accent text-slate/40 text-center px-4">Seating / Table Setup (Placeholder)</span>
+                                <div className="rounded-2xl overflow-hidden aspect-square bg-deep-green/5 relative border border-light-grey">
+                                    <img src="/party-room/seating_setup.png" alt="Seating and Tables" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                                 </div>
                             </FadeIn>
                         </div>
