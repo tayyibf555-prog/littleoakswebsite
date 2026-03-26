@@ -10,9 +10,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
     { name: "About", href: "/about" },
-    { name: "Pathways", href: "/pathways" }, // This could be a dropdown in v2
-    { name: "Regions", href: "/regions" },   // This could be a dropdown in v2
-    { name: "Resources", href: "/resources" },
+    { name: "Pathways", href: "/pathways" },
+    { name: "Regions", href: "/regions" },
 ];
 
 export function Navbar() {
