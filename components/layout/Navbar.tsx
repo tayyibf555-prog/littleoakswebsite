@@ -12,6 +12,7 @@ const navLinks = [
     { name: "About", href: "/about" },
     { name: "Pathways", href: "/pathways" },
     { name: "Regions", href: "/regions" },
+    { name: "Our Sites", href: "/our-sites" },
 ];
 
 export function Navbar() {

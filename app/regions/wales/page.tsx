@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 import { FadeIn } from "@/components/ui/FadeIn";
+import { Testimonials } from "@/components/sections/Testimonials";
+import { BookConsultation } from "@/components/sections/BookConsultation";
+import { FAQ } from "@/components/sections/FAQ";
 
 export default function WalesRegionPage() {
     return (
@@ -47,6 +50,10 @@ export default function WalesRegionPage() {
                     </FadeIn>
                 </div>
             </section>
+
+            <FadeIn delay={0.2}><Testimonials /></FadeIn>
+            <FadeIn delay={0.3}><BookConsultation /></FadeIn>
+            <FadeIn delay={0.4}><FAQ /></FadeIn>
         </main>
     );
 }
