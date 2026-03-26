@@ -27,7 +27,7 @@ export function OurSites() {
                             <div className="flex flex-col md:flex-row">
                                 {/* Image Placeholder/Accent */}
                                 <div className="md:w-2/5 md:h-auto h-48 relative overflow-hidden border-r border-light-grey/50">
-                                    <img src="/grand-oak-hero.png" alt="Grand Oak Early Years Nursery" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <img src="/grand-oak-hero.png" alt="Grand Oak Early Years Nursery" className="absolute inset-0 w-full h-full object-cover object-bottom scale-125 origin-bottom group-hover:scale-[1.3] transition-transform duration-500" />
                                 </div>
 
                                 {/* Content */}
