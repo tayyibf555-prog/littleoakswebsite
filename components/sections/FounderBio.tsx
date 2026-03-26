@@ -47,6 +47,35 @@ export function FounderBio() {
                         </div>
                     </div>
                 </div>
+
+                {/* Executive Director Section */}
+                <div className="mt-20 pt-16 border-t border-slate/10">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                        <div className="lg:col-span-8 lg:order-2">
+                            <div className="mb-4">
+                                <h3 className="text-2xl font-bold text-deep-green mb-2">
+                                    Our Team
+                                </h3>
+                                <span className="inline-block font-accent text-sm font-bold uppercase tracking-wider text-honey-gold">
+                                    Executive Director of Strategy, Expansion & Capital Partnerships
+                                </span>
+                            </div>
+                            <div className="text-slate leading-relaxed space-y-4">
+                                <p>
+                                    Driving the national expansion of the Little Oaks framework, forging strategic capital partnerships, and ensuring our foundational model seamlessly scales to empower communities across the entire region.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="lg:col-span-4 lg:order-1 flex justify-center lg:justify-start">
+                            <div className="relative w-48 h-48 sm:w-56 sm:h-56">
+                                <div className="w-full h-full bg-deep-green rounded-[32px] overflow-hidden shadow-lg border-4 border-white relative group">
+                                    <img src="/placeholders/executive_director.png" alt="Executive Director" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
