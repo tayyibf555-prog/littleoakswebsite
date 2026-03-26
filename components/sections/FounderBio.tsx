@@ -69,7 +69,14 @@ export function FounderBio() {
                         <div className="lg:col-span-4 lg:order-1 flex justify-center lg:justify-start">
                             <div className="relative w-48 h-48 sm:w-56 sm:h-56">
                                 <div className="w-full h-full bg-deep-green rounded-[32px] overflow-hidden shadow-lg border-4 border-white relative group">
-                                    <img src="/placeholders/executive_director.png" alt="Executive Director" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <img src="/placeholders/executive_director.png" alt="Bilal Raza - Executive Director" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                </div>
+                                {/* Floating name card */}
+                                <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white p-4 sm:p-5 rounded-[16px] shadow-lg max-w-[220px] border border-light-grey z-10 w-full">
+                                    <h3 className="font-display font-bold text-lg text-deep-green">Bilal Raza</h3>
+                                    <span className="font-accent text-[10px] sm:text-xs font-bold uppercase tracking-wider text-honey-gold leading-tight block mt-1">
+                                        Executive Director
+                                    </span>
                                 </div>
                             </div>
                         </div>
