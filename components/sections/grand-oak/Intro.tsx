@@ -36,7 +36,7 @@ export function Intro() {
                     <div className="lg:w-1/2">
                         <FadeIn delay={0.2}>
                             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-square lg:aspect-[4/3] border border-light-grey">
-                                <img src="/placeholders/grand_oak_intro.png" alt="Warm and Welcoming Toddler Space" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                                <img src="/grand-oak-hero.png" alt="Warm and Welcoming Space" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                             </div>
                         </FadeIn>
                     </div>
