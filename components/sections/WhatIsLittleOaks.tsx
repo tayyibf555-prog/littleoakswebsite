@@ -42,24 +42,17 @@ export function WhatIsLittleOaks() {
                         </div>
                     </div>
 
-                    {/* Abstract Visual Replacement */}
-                    <div className="relative">
-                        <div className="aspect-[4/3] bg-gradient-to-br from-blush-pink/30 to-soft-peach/30 rounded-[32px] overflow-hidden relative border border-white shadow-lg">
-                            {/* Geometric Shapes Abstracting 'Structure' and 'Community' */}
-                            <div className="absolute top-[10%] left-[10%] w-[60%] h-[60%] bg-soft-forest rounded-[24px] opacity-10 rotate-3"></div>
-                            <div className="absolute bottom-[10%] right-[10%] w-[60%] h-[60%] bg-honey-gold rounded-full opacity-10 -rotate-3"></div>
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="relative w-32 h-32 bg-white rounded-full shadow-md flex items-center justify-center z-10">
-                                    <div className="w-20 h-20 bg-deep-green rounded-full opacity-10 animate-pulse"></div>
-                                    <div className="absolute w-16 h-16 bg-deep-green rounded-full opacity-20"></div>
-                                    {/* Center Icon or Symbol */}
-                                    <div className="absolute w-3 h-3 bg-honey-gold rounded-full"></div>
-                                </div>
+                    {/* Visual Replacement */}
+                    <div className="relative order-first lg:order-last mb-10 lg:mb-0">
+                        <FadeIn delay={0.3}>
+                            <div className="aspect-[4/3] rounded-[2rem] overflow-hidden relative shadow-2xl border border-light-grey">
+                                <img
+                                    src="/placeholders/infrastructure.png"
+                                    alt="Little Oaks Framework and Infrastructure"
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                                />
                             </div>
-                            {/* Floating elements */}
-                            <div className="absolute top-8 right-8 w-16 h-16 bg-white/60 backdrop-blur-sm rounded-2xl animate-float-slow"></div>
-                            <div className="absolute bottom-12 left-12 w-20 h-20 bg-white/60 backdrop-blur-sm rounded-full animate-float-delayed"></div>
-                        </div>
+                        </FadeIn>
                         {/* Decorative blobs */}
                         <div className="absolute -z-10 top-[-20px] right-[-20px] w-32 h-32 bg-honey-gold/20 rounded-full blur-2xl" />
                         <div className="absolute -z-10 bottom-[-20px] left-[-20px] w-40 h-40 bg-soft-forest/10 rounded-full blur-2xl" />
